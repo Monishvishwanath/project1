@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mentoring</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're interested in receiving mentorship or have any questions, feel free to reach out to us. Fill out the form below and we’ll get back to you as soon as possible.</p>
+            
+            <form action="save.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile:</label>
+                <input type="mobile" id="mobile" name="mobile" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
