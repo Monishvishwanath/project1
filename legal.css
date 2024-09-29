@@ -1,0 +1,49 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Legal Section */
+#legal {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#legal h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#legal h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+}
+
+#legal p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#legal a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#legal a:hover {
+    text-decoration: underline;
+}
